@@ -2,7 +2,7 @@ import numpy as np
 from PIL import Image
 from matplotlib import pyplot as plt
 
-class HeatMap:
+class heatMap:
     def __init__(self, ax, points, accuracy, zone_width, zone_height, pic):
 
         # load img
