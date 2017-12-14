@@ -55,4 +55,4 @@ heatmap.draw_heatmap(
 ````
 
 ### demo
-![]("https://github.com/KazafChen/chartkra/blob/master/demo.png")
+![](https://github.com/KazafChen/chartkra/blob/master/demo.png)
