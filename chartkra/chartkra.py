@@ -1,10 +1,10 @@
 from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas
 from matplotlib.figure import Figure
 
-from chartkra.Heatmap import HeatMap
+from chartkra.heatmap import heatMap
 
 
-class Chartkra:
+class chartkra:
     def __init__(self):
         self.figure = Figure()
         self.canvas = FigureCanvas(self.figure)
@@ -26,4 +26,4 @@ class Chartkra:
 
     def draw_heatmap(self, points, accuracy, zone_width, zone_height, zone_pic, canvas_width, canvas_height, canvas_dpi):
         ax = self.figure.add_subplot(111)
-        heatmap = HeatMap(ax, points, accuracy, zone_width, zone_height, zone_pic)
+        heatmap = heatMap(ax, points, accuracy, zone_width, zone_height, zone_pic)
