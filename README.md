@@ -55,4 +55,4 @@ heatmap.draw_heatmap(
 ````
 
 ### demo
-![]("demo.jpg")
+![]("demo.png")
