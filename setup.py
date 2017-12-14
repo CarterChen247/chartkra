@@ -24,12 +24,12 @@ setup(
         'Intended Audience :: Developers',
         'Operating System :: OS Independent',
     ],
-    keywords='chartkra',         # 关键字
-    author='Kazaf Chen',                               # 作者
-    author_email='kazaf.chen@gmail.com',                # 邮箱
-    url='https://github.com/KazafChen',      # 包含包的项目地址
-    license='MIT',                                  # 授权方式
-    packages=find_packages(),                       # 包列表
+    keywords='chartkra',        
+    author='Kazaf Chen',                   
+    author_email='kazaf.chen@gmail.com',   
+    url='https://github.com/KazafChen',    
+    license='MIT',                         
+    packages=find_packages(),              
     include_package_data=True,
     zip_safe=True,
 )
