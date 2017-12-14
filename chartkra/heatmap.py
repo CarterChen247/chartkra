@@ -84,7 +84,7 @@ class heatMap:
 
                 print('index x,y=' + str(idx) + ',' + str(idy))
 
-                score[idx][idy] = score[idx][idy] + 1
+                score[idy][idx] = score[idy][idx] + 1
 
         update_score(score, points)
 

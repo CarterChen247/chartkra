@@ -15,7 +15,7 @@ __date__ = '2017/12/14'
 
 setup(
     name='chartkra',
-    version='0.0.5',
+    version='0.0.6',
     description='chartkra',
     long_description=long_description,
     classifiers=[
@@ -24,12 +24,12 @@ setup(
         'Intended Audience :: Developers',
         'Operating System :: OS Independent',
     ],
-    keywords='chartkra',        
-    author='Kazaf Chen',                   
-    author_email='kazaf.chen@gmail.com',   
-    url='https://github.com/KazafChen',    
-    license='MIT',                         
-    packages=find_packages(),              
+    keywords='chartkra',
+    author='Kazaf Chen',
+    author_email='kazaf.chen@gmail.com',
+    url='https://github.com/KazafChen',
+    license='MIT',
+    packages=find_packages(),
     include_package_data=True,
     zip_safe=True,
 )
