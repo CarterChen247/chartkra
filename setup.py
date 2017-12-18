@@ -15,7 +15,7 @@ __date__ = '2017/12/14'
 
 setup(
     name='chartkra',
-    version='0.0.6',
+    version='0.0.7',
     description='chartkra',
     long_description=long_description,
     classifiers=[
