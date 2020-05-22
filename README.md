@@ -41,7 +41,8 @@ Use function `draw_plot` to draw. Pass what you're going to show on x axis to `l
 chart.draw_plot(listx=['12/01', '12/02', '12/03'], listy=[1, 2, 3])
 ```
 
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_82697D89B2767AD0FD740BDF7DC3C2E953BC1C71AA09B2F6E6AD02DD94183EED_1513569828224_plot.png)
+<img src="https://i.imgur.com/HkG5Bho.png" height="300">
+
 
 ## Drawing Bars
 
@@ -51,7 +52,7 @@ Use function `draw_bar` to draw. Pass what you're going to show on x axis to `li
 chart.draw_bar(listx=['zone1', 'zone2', 'zone3'], listy=[1, 2, 3])
 ```
 
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_82697D89B2767AD0FD740BDF7DC3C2E953BC1C71AA09B2F6E6AD02DD94183EED_1513569861075_bar.png)
+<img src="https://i.imgur.com/6NYNVm7.png" height="300">
 
 ## Drawing Pies
 
@@ -61,14 +62,14 @@ Use function `draw_pie` to draw. The sizes and the labels reference the partitio
 chart.draw_pie(sizes=[1, 2, 3], labels=['zone1', 'zone2', 'zone3'])
 ```
 
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_82697D89B2767AD0FD740BDF7DC3C2E953BC1C71AA09B2F6E6AD02DD94183EED_1513569878247_pie.png)
+<img src="https://i.imgur.com/FgZXCBa.png" height="300">
 
 ## Drawing Heatmaps
 
 ### Example: Pedestrian Trajectory Heatmap
 
 
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_82697D89B2767AD0FD740BDF7DC3C2E953BC1C71AA09B2F6E6AD02DD94183EED_1513570063080_demo.png)
+<img src="https://i.imgur.com/4FrExRg.png" height="300">
 
 
 ### codes:
@@ -91,28 +92,35 @@ By setting up argument `title` and `title_padding` in function `set_display`, yo
 
 ### Accuracy
 
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_82697D89B2767AD0FD740BDF7DC3C2E953BC1C71AA09B2F6E6AD02DD94183EED_1513571561142_hm_acc-01.png)
-
+|<img src="https://i.imgur.com/rHyM0Ew.png" height="300">   |  <img src="https://i.imgur.com/6zCeZYV.png" height="300"> |
+|---|---|
+| <img src="https://i.imgur.com/gU1Rsqx.png" height="300">  | <img src="https://i.imgur.com/8p1tv2p.png" height="300">  |
 
 It is customized by argument `accuracy` in function `set_display`
 
 ### Styles
 
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_82697D89B2767AD0FD740BDF7DC3C2E953BC1C71AA09B2F6E6AD02DD94183EED_1513570926332_hm_styles.png)
+
+| <img src="https://i.imgur.com/owL0Ryo.png" height="300">  | <img src="https://i.imgur.com/4JHRMj2.png" height="300">  |
+|---|---|
+| <img src="https://i.imgur.com/ZbFmR9x.png" height="300">  | <img src="https://i.imgur.com/iT4Ome7.png" height="300">  |
 
 
 It is customized by argument `style` in function `set_display`. The accepted styles can be found on https://matplotlib.org/examples/color/colormaps_reference.html
 
 ### Orientations
 
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_82697D89B2767AD0FD740BDF7DC3C2E953BC1C71AA09B2F6E6AD02DD94183EED_1513571466433_hm_rot-01.png)
-
+| <img src="https://i.imgur.com/YwuwDIK.png" height="300">  | <img src="https://i.imgur.com/i6iR7Ag.png" height="300">  |
+|---|---|
+| <img src="https://i.imgur.com/09BGNuJ.png" height="300">  | <img src="https://i.imgur.com/VdnVpt9.png" height="300">  |
 
 It is customized by argument `rotation` in function `set_display`. The accepted values includes 0, 90, 180 and 270.
 
 ### Colorbars
 
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_82697D89B2767AD0FD740BDF7DC3C2E953BC1C71AA09B2F6E6AD02DD94183EED_1513571763704_hm_colorb-01.png)
+| <img src="https://i.imgur.com/gZakZ8T.png" height="300">  | <img src="https://i.imgur.com/4FrExRg.png" height="300">  |
+|---|---|
+| <img src="https://i.imgur.com/AIqwjiS.png" height="300">  | <img src="https://i.imgur.com/FTZS3St.png" height="300">  |
 
 It is customized by assign arguments in function `set_colorbar`
 
@@ -122,7 +130,8 @@ It is customized by assign arguments in function `set_colorbar`
 
 ### Others
 
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_82697D89B2767AD0FD740BDF7DC3C2E953BC1C71AA09B2F6E6AD02DD94183EED_1513571814004_hm_display-01.png)
+| <img src="https://i.imgur.com/JVXKPLl.png" >  | <img src="https://i.imgur.com/EaVGAyn.png" >  | <img src="https://i.imgur.com/nnrBAXj.png">  |
+|---|---|---|
 
 - The showing of colorbars is not requires. The colorbars will not be showed by default if you don't declare function `set_colorbar`.
 - By using function `disable_heatmap_layer`, the figure will only display picture.
